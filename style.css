@@ -1,0 +1,236 @@
+#part1 {
+    color: #F9FAF8;
+    background-color: #1F2937;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+
+#part2 {
+    color: #1F2937;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+
+#part3 {
+    color: #1F2937;
+    background-color: #E5E7EB;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+
+#part4 {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    padding: 40px;
+}
+
+#part5 {
+    color: #F9FAF8;
+    background-color: #1F2937;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    padding: 40px;
+}
+
+/* Style Part1 */
+
+#part1 > .b1, .b2 {
+    display: flex;
+}
+
+/* Box 1 */
+#part1 > .b1 > .cont1 {
+    display: flex;
+    flex: auto;
+}
+
+#part1 > .b1 > .cont1 > p {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    flex: auto;
+}
+
+#part1 > .b1 > .cont2 {
+    display: flex;
+    flex: auto;
+}
+
+#part1 > .b1 > .cont2 > .link {
+    color: #E5E7EB;
+    font-size: 18px;
+    text-align: center;
+    flex: auto;
+
+}
+
+/* Box 2 */
+#part1 > .b2 {
+    display: flex;
+    flex:auto;
+}
+
+#part1 > .b2 > .b2a {
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+}
+
+#part1 > .b2 > .b2a > .main {
+    font-size: 48px;
+    font-weight: bolder;
+    flex: auto;
+}
+
+#part1 > .b2 > .b2a > .sub {
+    color: #E5E7EB;
+    font-size: 18px;
+    text-align: left;
+    flex: auto;
+}
+
+#part1 > .b2 > .b2a > .b2c {
+    display: flex;
+    justify-content: flex-start;
+    flex: auto;
+}
+
+#part1 > .b2 > .b2a > .b2c > .button {
+    background-color: #3882F6;
+    border-radius: 10px;
+    text-align: center;
+    flex: initial;
+    box-sizing: border-box;
+    padding: 5px;
+    width: 80px;
+}
+
+#part1 > .b2 > .b2b {
+    display: flex;
+    background-color: #E5E7EB;
+    text-align: center;
+    align-items: center;
+    flex: auto;
+}
+
+/* Style Part2 */
+#part2 > .header {
+    flex: auto;
+    color: #1F2937;
+    font-size: 36px;
+    text-align: center;
+}
+
+#part2 > .squares {
+    display: flex;
+    justify-content: space-evenly;
+    flex: auto;
+}
+
+#part2 > .squares > .sq1, .sq2, .sq3, .sq4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: auto;
+}
+
+#part2 > .squares > .sq1 > .box {
+    border: 4px solid;
+    border-radius: 10px;
+    border-color: #3882F6;
+    padding: 40px;
+    width: 50px;
+    height: 50px;
+    flex: auto;
+}
+#part2 > .squares > .sq2 > .box {
+    border: 4px solid;
+    border-radius: 10px;
+    border-color: #3882F6;
+    padding: 40px;
+    width: 50px;
+    height: 50px;
+    flex: auto;
+}
+#part2 > .squares > .sq3 > .box {
+    border: 4px solid;
+    border-radius: 10px;
+    border-color: #3882F6;
+    padding: 40px;
+    width: 50px;
+    height: 50px;
+    flex: auto;
+}
+#part2 > .squares > .sq4 > .box {
+    border: 4px solid;
+    border-radius: 10px;
+    border-color: #3882F6;
+    padding: 40px;
+    width: 50px;
+    height: 50px;
+    flex: auto;
+}
+
+/* Style Part3 */
+#part3 > .quote {
+    font-size: 36px;
+    color: #1F2937;
+    text-align: center;
+    flex: auto;
+}
+
+#part3 > .sign {
+    font-size: 20px;
+    font-weight: bold;
+    color: #1F2937;
+    text-align: right;
+    flex: auto;
+}
+
+/* Style Part4 */
+#part4 > .box {
+    display: flex;
+    border-radius: 10px;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    padding: 20px;
+    justify-content: center;
+    flex: auto;
+}
+
+#part4 > .box > .a {
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+}
+
+#part4 > .box >.a > .main {
+    font-size: 24px;
+    font-weight: bold;
+    flex: auto;
+}
+
+#part4 > .box > .button {
+    border: 3px solid;
+    border-radius: 10px;
+    border-color: #F9FAF8;
+    text-align: center;
+    flex: initial;
+    box-sizing: border-box;
+    padding: 5px;
+    width: 80px;
+}
+
+/* Style Part5 */
+#part5 > div {
+    color: #E5E7EB;
+    font-size: 18px;
+    text-align: center;
+    flex: 1;
+}
