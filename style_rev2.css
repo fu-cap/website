@@ -16,11 +16,21 @@ body {
 
 .p2 {
     color: #1F2937;
+    justify-content: center;
 }
 
 .p3 {
     color: #1F2937;
     background-color: #E5E7EB;
+}
+
+.p4 {
+    color: #F9FAF8;
+    justify-content: center;
+}
+
+.p5 {
+    justify-content: center;
 }
 
 .flex-col {
@@ -40,6 +50,7 @@ body {
 
 .b2 {
     justify-content: center;
+    gap: 20px;
 }
 
 .h1 {
@@ -52,16 +63,111 @@ body {
     font-size: 18px;
     color: #E5E7EB;
     gap: 15px;
-    flex: 1;
+    flex 1;
 }
 
+.c1, .c2 {
+    width: 500px;
+    height: 300px;
+}
 
 .c1a {
     font-size: 48px;
     font-weight: 900;
+    flex: 1;
 }
 
 .c1b {
     font-size: 18px;
     color: #E5E7EB;
+    flex: 1;
 }
+
+.but1 {
+    border-radius: 5px;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    box-sizing: border-box;
+    padding: 5px;
+    width: 80px;
+    flex: initial;
+}
+
+.c2 {
+    background-color: #E5E7EB;
+    text-align: center;
+    flex: 1;
+}
+
+/* Style Section 2 */
+.b3 {
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+    flex: 1;
+}
+
+.b4a {
+    flex: 1;
+    align-items: center;
+}
+
+.sq {
+    border: 4px solid;
+    border-radius: 10px;
+    border-color: #3882F6;
+    padding: 40px;
+    width: 50px;
+    height: 50px;
+    flex: 1;
+}
+
+.subtext {
+    text-align: center;
+    flex: 1;
+}
+
+/* Style Section 3 */
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    flex: 1;
+}
+
+.quote-author {
+    font-weight: 900;
+    text-align: right;
+    flex: 1;
+}
+
+/* Style Section 4 */
+.b7 {
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 10px;
+    align-items: center;
+    gap: 10px;
+}
+
+.call {
+    font-weight: 900;
+    flex: 1;
+}
+
+.sign {
+    flex: 1;
+}
+
+.but2 {
+    border-radius: 5px;
+    border-color: #F9FAF8;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    box-sizing: border-box;
+    padding: 5px;
+    width: 80px;
+    flex: initial;
+}
+
+/* Style Section 5 */
