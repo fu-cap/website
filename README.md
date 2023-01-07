@@ -1,2 +1,2 @@
 # website
-Bulding a webseite after the tamplets from odin project.
+Bulding a website based off the template from odin project.
